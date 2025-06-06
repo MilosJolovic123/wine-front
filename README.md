@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+```markdown
+# 🍷 Wine Front
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React-based frontend application for managing wine data, serving as the user interface for the Wine API.
 
-## Available Scripts
+## 🚀 Technologies Used
+
+- [React](https://reactjs.org/) – A JavaScript library for building user interfaces
+- [TypeScript](https://www.typescriptlang.org/) – A statically typed superset of JavaScript
+- [Create React App](https://create-react-app.dev/) – A tool to set up a modern web app by running one command
+- [Axios](https://axios-http.com/) – Promise-based HTTP client for the browser and Node.js
+- [React Router](https://reactrouter.com/) – Declarative routing for React
+- [ESLint](https://eslint.org/) & [Prettier](https://prettier.io/) – Code analysis and formatting tools
+
+## 📁 Project Structure
+```
+
+wine-front/
+├── public/ # Static files
+├── src/ # Main source code
+│ ├── components/ # Reusable components
+│ ├── pages/ # Page components
+│ ├── services/ # API service calls
+│ ├── App.tsx # Root component
+│ └── index.tsx # Entry point
+├── .eslintrc.js # ESLint configuration
+├── .prettierrc # Prettier configuration
+├── package.json # Project metadata and dependencies
+├── tsconfig.json # TypeScript configuration
+└── README.md # Project documentation
+
+````
+
+## 🛠️ Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/MilosJolovic123/wine-front.git
+   cd wine-front
+````
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+
+   ```bash
+   npm start
+   ```
+
+   The application will run at `http://localhost:3000`.
+
+## ✅ Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+- `npm start` – Runs the app in development mode.
+- `npm run build` – Builds the app for production to the `build` folder.
+- `npm test` – Launches the test runner in interactive watch mode.
+- `npm run lint` – Runs ESLint for code analysis.
+- `npm run format` – Formats code using Prettier.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🔍 Testing
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+> Tests are not yet implemented. Adding unit and integration tests is planned for future versions.
